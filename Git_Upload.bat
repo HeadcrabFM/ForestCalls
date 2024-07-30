@@ -3,10 +3,11 @@ REM Set code page to UTF-8
 chcp 65001 >nul
 
 
-set repname = "FOREST CALLS CONSOLE TEXT RPG"
-set branch = "master"
+set repname=FOREST CALLS CONSOLE TEXT RPG
+set branch=master
 
 
+echo .
 echo 				* * * * * * * *
 echo 				*             *
 echo 				*      R      *
@@ -15,13 +16,14 @@ echo 				*    A V E    *
 echo 				*      E      *
 echo 				*             *
 echo 				* * * * * * * *
-echo 					 2024
+echo .
+echo 				    2 0 2 4
 echo .
 echo .
 echo .
 echo Сейчас будет произведено ОБНОВЛЕНИЕ
 echo УДАЛЁННОГО РЕПОЗИТОРИЯ
-echo					%repname%
+echo				%repname%
 echo НА ГИТХАБЕ.
 echo (интеграция результатов работы в локальной папке
 echo в систему контроля версий в облаке).
